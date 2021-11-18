@@ -1,0 +1,100 @@
+body{
+    background: url(bg_white.jpg);
+background-repeat: no-repeat;
+background-size: 1500px 1500px;
+}
+#heading{
+
+font-family:cursive;
+background-image:linear-gradient( to bottom left, yellow, orange);
+width:500px;
+height:150px;
+border-color: black;
+border-width: 5px;
+border-radius: 20px;
+border-style: ridge;
+
+
+
+}
+
+h3{
+    margin-top:-65px;
+}
+
+
+
+
+
+#photo_button{
+
+    border-color:rgb(99, 102, 240);
+    border-width: 6px;
+    border-radius: 10px;
+    border-style:double;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: monospace;
+    margin-top:200px;
+    background-color:pink;
+    color:purple;
+
+
+}
+
+
+
+
+
+#photo_button:hover{
+    background-color: purple;
+    color:pink;
+    border-color:rgb(116, 235, 219);
+    text-shadow:rgb(243, 206, 212);
+    border-width:8px;
+    font-size:26px;
+
+
+}
+
+canvas{
+
+    animation-name : example;
+    animation-duration : 4s;
+    animation-iteration-count : infinite;
+
+
+
+}
+
+
+@keyframes example {
+
+from { box-shadow : 1px 1px 38px red; }
+
+to { box-shadow : 1px 1px 38px rgb(35, 248, 35); }
+}
+
+
+canvas{
+    margin-top:200px;
+}
+
+a{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:500px;
+    background-color:rgb(116, 235, 219);
+}
+
+#em{
+    background-color:rgb(114, 238, 98);
+    width:100px;
+    height:70px;
+    border-color: black;
+border-width: 2px;
+border-radius: 100px;
+border-style: solid;
+
+
+}
